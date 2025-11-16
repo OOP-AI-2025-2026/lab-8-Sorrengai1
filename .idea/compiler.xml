@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="app" />
-        <module name="aqq" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aqq" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

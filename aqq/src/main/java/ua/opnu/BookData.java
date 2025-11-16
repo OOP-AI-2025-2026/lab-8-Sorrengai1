@@ -1,5 +1,6 @@
 package ua.opnu;
 
+//task2
 class BookData implements Comparable<BookData> {
 
     private String title;
