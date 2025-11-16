@@ -3,7 +3,6 @@ package ua.opnu;
 public class Main {
     public static void main(String[] args) {
 
-        // Тестування MyOptional
         System.out.println("=== MyOptional test ===");
         MyOptional<String> middleName = new MyOptional<>();
         System.out.println(middleName);
@@ -30,7 +29,6 @@ public class Main {
             System.out.println("Правильно не дозволив null: " + ex.getMessage());
         }
 
-        // Тестування узагальненого класу Printer для друку масивів будь-якого типу
         System.out.println("\n=== Printer test ===");
         Printer myPrinter = new Printer();
         Integer[] intArray = {1, 2, 3};
@@ -38,7 +36,6 @@ public class Main {
         myPrinter.printArray(intArray);
         myPrinter.printArray(stringArray);
 
-        // Тестування узагальнених кортежів (tuple) - структур даних, що зберігають кілька значень різних типів
         System.out.println("=== Generic Tuple test ===");
         GenericTwoTuple<String, Integer> studentRating = new GenericTwoTuple<>("Костилєв Олександр", 95);
         System.out.println("TwoTuple: " + studentRating);
@@ -56,7 +53,6 @@ public class Main {
                 new GenericThreeTuple<>(123, 45.67, "Data");
         System.out.println("Example tuple2: " + tuple2);
 
-        // Тестування узагальненого методу пошуку елемента в масиві
         System.out.println("\n== Task5 test ==");
         String[] words = {"apple", "banana", "cat"};
         System.out.println(Task5.contains(words, "banana"));

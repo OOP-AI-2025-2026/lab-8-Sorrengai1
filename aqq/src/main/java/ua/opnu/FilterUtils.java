@@ -3,7 +3,6 @@ package ua.opnu;
 import java.util.Arrays;
 import java.util.function.Predicate;
 
-//task4
 public class FilterUtils {
     public static <T> T[] filter(T[] input, Predicate<T> predicate) {
         int count = 0;
