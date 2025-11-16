@@ -1,5 +1,6 @@
 package ua.opnu;
 
+//task1
 public class MyOptional<T> {
 
     private T value;

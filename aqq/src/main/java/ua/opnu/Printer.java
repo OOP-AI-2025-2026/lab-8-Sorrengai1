@@ -1,5 +1,6 @@
 package ua.opnu;
 
+//task3
 class Printer {
 
     public <T> void printArray(T[] array) {

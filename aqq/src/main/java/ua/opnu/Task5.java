@@ -1,5 +1,6 @@
 package ua.opnu;
 
+//task5
 public class Task5 {
 
     public static <T extends Comparable<T>, V extends T> boolean contains(T[] array, V element) {
