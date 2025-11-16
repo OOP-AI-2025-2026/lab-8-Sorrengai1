@@ -52,7 +52,6 @@ public class Main {
         GenericThreeTuple<Integer, Double, String> tuple2 =
                 new GenericThreeTuple<>(123, 45.67, "Data");
         System.out.println("Example tuple2: " + tuple2);
-
         System.out.println("\n== Task5 test ==");
         String[] words = {"apple", "banana", "cat"};
         System.out.println(Task5.contains(words, "banana"));
