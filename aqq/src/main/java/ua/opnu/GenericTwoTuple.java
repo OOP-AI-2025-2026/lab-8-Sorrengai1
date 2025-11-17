@@ -1,6 +1,6 @@
 package ua.opnu;
 
-//task6
+//Task6
 class GenericTwoTuple<T, V> {
     public final T first;
     public final V second;
